@@ -1,10 +1,10 @@
-Basic Literal Types ===
+# Basic Literal Types ===
 
 
-1. null
-2. Boolean (true or false)
-3. Number
-4. String
+1. **null**
+2. **Boolean** (true or false)
+3. **Number**
+4. **String**
 
 null: is used as a place holder for when you want nothing to be represented
 
