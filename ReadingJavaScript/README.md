@@ -35,7 +35,9 @@ A program goes from statement to statement. An expression is any piece of a stat
 
 node is a REPL which stands for Read Evaluate Print Loop.
 
-A FUNCTION DEFINITION function identifier() { };
+# A FUNCTION DEFINITION 
+function identifier() { 
+};
 
 identifier is simply a "name" Functions are a snippet of code that when told to do its job executes everything inside the curly braces. Function invocation is done by using just the identifier and parentheses. Also called "calling" the function.
 
