@@ -25,11 +25,23 @@
 **Assignments** are used to stick the right to the left. This is most commonly used with equals signs. 
 
 # Built-in Constants ===
+undefined is what happens when a variable does not have a value.
 
+NaN stands for "Not-A-Number" and is returned when a math problem involves something that is not numbers.
 
-**undefined** is what happens when a variable does not have a value.
+Infinity is the same as infinity in math.
 
-**NaN** stands for **"Not-A-Number"** and is returned when a math problem involves something that is not numbers.
+A program goes from statement to statement. An expression is any piece of a statement. The control flow is how you go from statement to statement.
 
-**Infinity** is the same as infinity in math.
+node is a REPL which stands for Read Evaluate Print Loop.
+
+A FUNCTION DEFINITION function identifier() { };
+
+identifier is simply a "name" Functions are a snippet of code that when told to do its job executes everything inside the curly braces. Function invocation is done by using just the identifier and parentheses. Also called "calling" the function.
+
+Semi-colons are statement operators. Quotation marks are delimiters. Strings without quotation marks are "bare-words".
+
+typeof is a unary operator meaning it only has one operand. typeof tells us what kind of primitive type whatever you want to know is. Sometimes it gives really weird answers though. Like undefined and whatnot.
+
+Weirdo operator I think is a "." and we will go over this tomorrow.
 
