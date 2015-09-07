@@ -18,3 +18,10 @@ Comparisons do what you would expect comparisons to do. Their output is based of
 
 Assignments are used to stick the right to the left. This is most commonly used with equals signs.
 
+###10 entries
+
+###Array
+
+###Length
+
+###2 Array.prototype examples
