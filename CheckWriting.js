@@ -7,11 +7,19 @@ test('toEnglish: `0` to `9`', function(){
   assert.equal(toEnglish(0), "zero");
   assert.equal(toEnglish(1), "one");
   assert.equal(toEnglish(2), "two");
+  assert.equal(toEnglish(3), "three");
+  assert.equal(toEnglish(4), "four");
+  assert.equal(toEnglish(5), "five");
+  assert.equal(toEnglish(6), "six");
+  assert.equal(toEnglish(7), "seven");
+  assert.equal(toEnglish(8), "eight");
+  assert.equal(toEnglish(9), "nine");
+  assert.equal(toEnglish(10), "ten");
   // et cetera, et cetera, et cetera...
 }); // END test(toEnglish)
 
 test('toEnglish: `10` to `20`', function(){
-  // use `assert` again...
+  // use `assert` again..
 }); // END test(toEnglish)
 
 test('toEnglish: `21` to `30`', function(){
