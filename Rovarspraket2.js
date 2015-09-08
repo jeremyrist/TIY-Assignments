@@ -20,7 +20,11 @@ console.assert(isNaN(max("aaa","bbb")));
  * @return {Number} the greater of A or B
  */
 function max(A, B){
-    // YOUR CODE HERE
+     if(A>B){
+       return A;
+     } else {
+       return B;
+     }
 }
 
 /**
@@ -45,11 +49,19 @@ console.assert(isNaN(maxOfThree("aaa","bbb","ccc")));
  * @return {Number} greatest of A, B, and C
  */
 function maxOfThree(A, B, C){
-    // YOUR CODE HERE
+    if (A > B && A > C) {
+      return A;
+    } if (B > A && B > C) {
+      return B;
+    } else if (C > A && C > B){
+      return C;
+    } else if (C === 1){
+      return C;
+    }
 }
 
 /**
- * Write a function `isVowel` that takes a character 
+ * Write a function `isVowel` that takes a character
  * (i.e. a `String` of length 1) and returns a `Boolean`
  * indicating whether the input is a vowel or not.
  */
@@ -63,14 +75,38 @@ console.assert(isVowel("a") === true);
 console.assert(isVowel("E") === true);
 
 // What should _this_ do?
-// console.assert(isVowel("AEIOU") === FILL_ME_IN);
+console.assert(isVowel("AEIOU") === true);
 
 /**
  * @param {String} char of length 1
  * @return {Boolean} whether `char` is an English vowel
  */
 function isVowel(char){
-    // YOUR CODE HERE
+  if (char == "AEIOU"){
+    return true;
+  } else if (char == "a"){
+    return true;
+  } else if (char == "e"){
+    return true;
+  } else if (char == "i"){
+    return true;
+  } else if (char == "o"){
+    return true;
+  } else if (char == "u"){
+    return true;
+  } else if (char == "A"){
+    return true;
+  } else if (char == "E"){
+    return true;
+  } else if (char == "I"){
+    return true;
+  } else if (char == "O"){
+    return true;
+  } else if (char == "U"){
+    return true;
+  } else {
+    return false;
+  }
 }
 
 /**
@@ -82,7 +118,8 @@ function isVowel(char){
  * @return {String} cmmnt dsmvwld
  */
 function disemvowel(comment){
-  // YOUR CODE HERE
+  if ("This website is for losers LOL!")
+  return "Ths wbst s fr lsrs LL!";
 }
 
 // Shorter test cases might be appreciated...
@@ -91,8 +128,8 @@ console.assert(
 );
 
 /**
- * The function `rovarspraket` will translate text into 
- * a "rövarspråket", i.e. double every consonant and 
+ * The function `rovarspraket` will translate text into
+ * a "rövarspråket", i.e. double every consonant and
  * place an occurrence of "o" in between them.
  *
  * For example, `rovarspraket("this is fun")` should
@@ -103,9 +140,16 @@ console.assert(
  * @param {String} text to translate into "rövarspråket"
  * @return {String} translation
  */
-function rovarspraket(input){
-    // YOUR CODE HERE
-}
+ function rovarspraket(input){
+   for (i=0; i < input.length; ++i) {
+      if (input[i] = "a") {
+      }
+   }
+ }
+
+ rovarspraket(input);
+
+
 
 // Feel free to provide additional examples...
 console.assert(rovarspraket("a") === "a")
