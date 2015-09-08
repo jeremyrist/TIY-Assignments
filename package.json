@@ -1,22 +1,8 @@
 {
-  "name": "javascript-koans",
-  "version": "1.0.0",
-  "description": "Based on Edgecase's fantastic  [Ruby koans](http://github.com/edgecase/ruby_koans), the goal of the Javascript koans is to teach you Javascript programming through testing.",
-  "main": "index.js",
-  "scripts": {
-    "test": "mocha koans/",
-    "start": "npm test -- --bail --watch"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/TIY-Durham/javascript-koans.git"
-  },
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/TIY-Durham/javascript-koans/issues"
-  },
-  "homepage": "https://github.com/TIY-Durham/javascript-koans#readme",
+  "name": "rot13",
+  "version": "0.0.0",
+  "description": "I'm gunna type some stuff in here so I can see if I can open a pull request.",
+  "main": "BasicCalculator.js",
   "dependencies": {
     "chai": "^3.2.0",
     "lodash": "^3.10.1",
@@ -24,5 +10,18 @@
   },
   "devDependencies": {
     "mocha": "^2.3.0"
-  }
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeremyrist/TIY-Assignments.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeremyrist/TIY-Assignments/issues"
+  },
+  "homepage": "https://github.com/jeremyrist/TIY-Assignments#readme"
 }
