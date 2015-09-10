@@ -116,17 +116,33 @@ The Window Object represents a window containing the DOM document, the document 
 
 _Events are the word we use to describe JS in action._
 
+_Events are fired._
+
 _Any input can trigger an_ "event" _in javascript._
 
 #### [Bubbling](https://developer.mozilla.org/en-US/docs/Web/API/Event/bubbles)
 * Event.bubble returns a boolean value. If it's _true_ then that means that the event bubbles up through the DOM.
-* With bubbling, the event is first captured and handled by the innermost element and then propagated to outer elements. 
+* With bubbling, the event is first captured and handled by the innermost element and then spread to outer elements.
 * Bubbling has to do with control flow. 
 * It starts small and bubbles out.
 * It can be stopped with _event.cancelBubble=true_
 
 #### [Targets](https://developer.mozilla.org/en-US/docs/Web/API/Event/target)
-*
+* Event.target helps in delegation when it comes to bubbling.
+* It tells you which DOM element triggered the event.
+
+#### [Other events the mouse can trigger](https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent)
+* [contextmenu](https://developer.mozilla.org/en-US/docs/Web/Events/contextmenu)
+* [dblclick](https://developer.mozilla.org/en-US/docs/Web/Events/dblclick)
+* [mousedown](https://developer.mozilla.org/en-US/docs/Web/Events/mousedown)
+* [mouseenter](https://developer.mozilla.org/en-US/docs/Web/Events/mouseenter)
+* [mouseleave](https://developer.mozilla.org/en-US/docs/Web/Events/mouseleave)
+* [mousemove](https://developer.mozilla.org/en-US/docs/Web/Events/mousemove)
+* [mouseout](https://developer.mozilla.org/en-US/docs/Web/Events/mouseout)
+* [mouseover](https://developer.mozilla.org/en-US/docs/Web/Events/mouseover)
+* [mouseup](https://developer.mozilla.org/en-US/docs/Web/Events/mouseup)
+* [show](https://developer.mozilla.org/en-US/docs/Web/Events/show)
+
 
 
 
