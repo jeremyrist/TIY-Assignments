@@ -143,7 +143,36 @@ _Any input can trigger an_ "event" _in javascript._
 * [mouseup](https://developer.mozilla.org/en-US/docs/Web/Events/mouseup)
 * [show](https://developer.mozilla.org/en-US/docs/Web/Events/show)
 
+#### [What types of events can be triggered on a <form> element?](http://www.w3schools.com/tags/ref_eventattributes.asp)
+* This is used when forms need to be filled out on the internet.
+* change
+* select
+* submit
 
+#### [CLICK](http://www.w3schools.com/js/js_htmldom_events.asp)
+* Events can be fired when HTML gets clicked on.
+* JavaScript makes websites interactive so JS is also responsible for the clicking events.
+
+#### [SCROLL}(http://www.w3schools.com/jsref/event_onscroll.asp)
+* The onscroll event is fired when a user scrolls in an HTML element.
+* "onscroll" is the HTML version of the syntax. In javascript it's just referred to as "scroll".
+
+#### [CHANGE](http://www.w3schools.com/jsref/event_onchange.asp)
+* The onchange event is fired when there's a button that presents you different options that you can change. 
+* Referred to as "change" in javascript.
+
+#### [SUBMIT](http://www.w3schools.com/jsref/event_onsubmit.asp)
+* This event is fired when something like a form is submitted.
+
+#### [LOAD](http://www.w3schools.com/jsref/event_onload.asp)
+* This event is fired as soon as a page loads.
+
+#### [UNLOAD](http://www.w3schools.com/jsref/event_onunload.asp)
+* This event is fired when a page unloads or a page is closed.
+
+#### [Keyboard Events](http://www.w3schools.com/jsref/event_onkeypress.asp)
+* Keyboard events can be _"keydown"_, _"keypress"_, or _"keyup"_
+* These are all basically the same things that tell the page to do something when a key is pressed.
 
 
 
