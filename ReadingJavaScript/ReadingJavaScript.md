@@ -93,24 +93,31 @@ console.log(hiphop);   //"Biggie", "NaS", "Jay-Z", "Eminem"
 
 console.log(shifted);   //"Tupac"
   
-  
-
-
-
-
-
-
-
-
-
-
-
 ## DOM Edition
 google definition: The DOM is the way Javascript sees its containing pages' data. It is an object that includes how the HTML/XHTML/XML is formatted, as well as the browser state. A DOM element is something like a DIV, HTML, BODY element on a page. You can add classes to all of these using CSS, or interact with them using JS.
 
 ## [WINDOW OBJECT](https://developer.mozilla.org/en-US/docs/Web/API/Window)
 The Window Object represents a window containing the DOM document, the document property points to the DOM document loaded in that window. Whatever this means.
 
-## [LOCATION OBJECT]
+
+
+
+
+
+
+
+
+
+
+
+## [9/10/15](https://www.youtube.com/watch?v=xXlAmRM_4yY)
+
+#### [The Event Type](https://developer.mozilla.org/en-US/docs/Web/API/Event)
+
+_Events are the word we use to describe JS in action._
+
+_Any input can trigger an_ "event" _in javascript._
+
+
 
 
