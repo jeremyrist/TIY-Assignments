@@ -173,6 +173,6 @@ _Any input can trigger an_ "event" _in javascript._
 #### [Keyboard Events](http://www.w3schools.com/jsref/event_onkeypress.asp)
 * Keyboard events can be _"keydown"_, _"keypress"_, or _"keyup"_
 * These are all basically the same things that tell the page to do something when a key is pressed.
-
+* _HOW DO YOU MAKE THE KEYBOARD LISTEN TO SPECIFIC KEYS?_
 
 
