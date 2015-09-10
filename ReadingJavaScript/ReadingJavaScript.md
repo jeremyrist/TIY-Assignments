@@ -112,7 +112,7 @@ The Window Object represents a window containing the DOM document, the document 
 
 ## [9/10/15](https://www.youtube.com/watch?v=xXlAmRM_4yY)
 
-## [The Event Type](https://developer.mozilla.org/en-US/docs/Web/API/Event)
+## [THE EVENT TYPE](https://developer.mozilla.org/en-US/docs/Web/API/Event)
 
 _Events are the word we use to describe JS in action._
 
