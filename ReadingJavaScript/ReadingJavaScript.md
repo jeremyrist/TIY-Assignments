@@ -118,6 +118,16 @@ _Events are the word we use to describe JS in action._
 
 _Any input can trigger an_ "event" _in javascript._
 
+#### [Bubbling](https://developer.mozilla.org/en-US/docs/Web/API/Event/bubbles)
+* Event.bubble returns a boolean value. If it's _true_ then that means that the event bubbles up through the DOM.
+* With bubbling, the event is first captured and handled by the innermost element and then propagated to outer elements. 
+* Bubbling has to do with control flow. 
+* It starts small and bubbles out.
+* It can be stopped with _event.cancelBubble=true_
+
+#### [Targets](https://developer.mozilla.org/en-US/docs/Web/API/Event/target)
+*
+
 
 
 
