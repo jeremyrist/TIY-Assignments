@@ -153,7 +153,7 @@ _Any input can trigger an_ "event" _in javascript._
 * Events can be fired when HTML gets clicked on.
 * JavaScript makes websites interactive so JS is also responsible for the clicking events.
 
-#### [SCROLL}(http://www.w3schools.com/jsref/event_onscroll.asp)
+#### [SCROLL](http://www.w3schools.com/jsref/event_onscroll.asp)
 * The onscroll event is fired when a user scrolls in an HTML element.
 * "onscroll" is the HTML version of the syntax. In javascript it's just referred to as "scroll".
 
