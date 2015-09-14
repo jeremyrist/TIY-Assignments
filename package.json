@@ -1,0 +1,27 @@
+{
+  "name": "rot13",
+  "version": "0.0.0",
+  "description": "I'm gunna type some stuff in here so I can see if I can open a pull request.",
+  "main": "BasicCalculator.js",
+  "dependencies": {
+    "chai": "^3.2.0",
+    "lodash": "^3.10.1",
+    "mocha": "^2.3.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeremyrist/TIY-Assignments.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeremyrist/TIY-Assignments/issues"
+  },
+  "homepage": "https://github.com/jeremyrist/TIY-Assignments#readme"
+}
