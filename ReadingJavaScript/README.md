@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Basic Literal Types ===
 
 
@@ -46,4 +47,6 @@ Semi-colons are statement operators. Quotation marks are delimiters. Strings wit
 typeof is a unary operator meaning it only has one operand. typeof tells us what kind of primitive type whatever you want to know is. Sometimes it gives really weird answers though. Like undefined and whatnot.
 
 Weirdo operator I think is a "." and we will go over this tomorrow.
+=======
+>>>>>>> c50c96aae6be27b62c203fd4fff8ccfff4422d3d
 
