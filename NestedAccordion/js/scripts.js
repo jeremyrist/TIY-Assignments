@@ -20,3 +20,20 @@
 // We want an onclick event handler to drop down the descriptions, which is a DOM property?
 
 //CHANGE!
+
+// What does it do?
+// When I click
+//   on a heading...
+// var heading = document.querySelector('.cbp-nttrigger'); // Defined heading as a class
+//
+// heading.addEventListener('click', function(){ // Added an event listener to the heading and set it to event type 'click'
+//
+//   if (document.querySelector("li").className !== "cbp-ntopen"){ // The method querySelector selects the first element li and allows it to be closed by saying it's not equal to class name cbp-ntopen
+//     document.querySelector("li").className = "cbp-ntopen";
+//     return true;
+//   }
+//     if (document.querySelector("li").className === "cbp-ntopen"){ // If the className is strictly equal to cbp-ntopen
+//       document.querySelector("li").className = null; // The event click changes the className to null
+//       return true;
+//     }
+// });
