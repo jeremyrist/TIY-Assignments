@@ -49,6 +49,9 @@ But it's also cool to just say something like color: red.
 
 ## [CSS Box Model](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model)
 
+![CSS Box Model EXPLAINED!](http://3.bp.blogspot.com/-l8TsrarMIjQ/VX1WhBoHjvI/AAAAAAAAAcs/jtJpal-a3no/s1600/box-model.png)
+> from http://www.geekstuff4all.net/2015/06/the-css-box-model.html
+
 * Each element gets represented as a rectangular box, whether you like it or not.
 * You can control the size, color, background, borders aspect, and position of the box.
 * The _content area_ is the area with the content.
