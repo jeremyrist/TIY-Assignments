@@ -1,0 +1,26 @@
+body {
+  background-image: url("http://www.dezignwithaz.com/images/column-wall-stickers.png");
+  background-color: yellow;
+  font-family: arial;
+}
+
+.cbp-mc-column {
+  background-color: lightgray;
+  float: left;
+  margin: auto;
+  width: 33%;
+}
+
+div {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.cbp-mc-submit-wrap {
+  margin-top: 10px;
+  border: aliceblue;
+}
+
+.cbp-mc-submit-wrap {
+  text-align: center;
+}
