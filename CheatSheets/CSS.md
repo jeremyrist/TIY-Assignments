@@ -61,12 +61,12 @@ But it's also cool to just say something like color: red.
 * The _border edge_ is outside of that.
 * And the _margin edge_ is outside of that.
 
-## [Margin](https://developer.mozilla.org/en-US/docs/Web/CSS/margin)
+## [margin](https://developer.mozilla.org/en-US/docs/Web/CSS/margin)
 
 * You can set the margin using margin-top, margin-left, margin-right, and margin-bottom
 * You can set the margin using percentages, pixels, em's or auto. Combos also work.
 
-## [Padding](https://developer.mozilla.org/en-US/docs/Web/CSS/padding)
+## [padding](https://developer.mozilla.org/en-US/docs/Web/CSS/padding)
 
 * The padding element works for all sides of the rectangle or square element.
 * The padding is the space between the content and the border.
@@ -92,3 +92,98 @@ But it's also cool to just say something like color: red.
 
 * Copy pasta: The box-sizing property is used to alter the default CSS box model used to calculate widths and heights of elements.
 * This seems aggressive.
+* This is a flag in the sand to come back to later...
+
+## [Fonts](https://developer.mozilla.org/en-US/docs/Web/CSS/font)
+
+* The font CSS property is made up of the `font-style`, `font-variant`, `font-weight`, `font-size`, `line-height` and `font-family`.
+
+### [font-style](https://developer.mozilla.org/en-US/docs/Web/CSS/font-style)
+
+* This can be either `normal`, `italic`, or `oblique`...
+* FUN FACT:  italic and oblique look exactly the fucking same but bitches be saying they different.
+
+### [font-size](https://developer.mozilla.org/en-US/docs/Web/CSS/font-size)
+
+* Funny enough, "big" is NOT an acceptable font size but `small` is!
+* The default _font-size_ is `medium`.
+* There are 5 main groups of `font-size values`:
+    * absolute-size
+    * relative-size
+    * length
+    * percentage
+    * global values
+
+* David suggests using `pt` for font sizes.
+
+### [font-variant](https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant)
+
+* This puts a little variety into the fonts.
+* For example, `small-caps`, does like an all caps kind of thing but instead of making all the letters big you can still shift the first letter of the beginning of a sentence and it will be bigger than the rest...but the rest are still capital letters.
+
+### [font-weight](https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight)
+
+* This determines the weight or boldness of the font.
+* It can be `normal` or `bold`, but it can also relate to a parent by being `bolder`.
+* Numbers can also be a `font-weight`.
+* And `font-weight` can have global values like `inherit`.
+
+### [font-family](https://developer.mozilla.org/en-US/docs/Web/CSS/font-family)
+
+* This is the money maker.
+* Font family is where you can type fun names like:
+      * `cursive`
+      * `fantasy`
+      * `monospace`
+      * `sans-serif`
+
+## [Text](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Text)
+
+### [text-align](https://developer.mozilla.org/en-US/docs/Web/CSS/text-align)
+
+* This tells you how text aligns inside the parent block element.
+
+### [text-color]
+
+* There is no such thing really, it's just called `color`
+
+### [word-spacing](https://developer.mozilla.org/en-US/docs/Web/CSS/word-spacing)
+
+* This tells you how much space is between the words in your text box.
+* It can be controlled with `px` or `em`.
+
+### [word-wrap](https://developer.mozilla.org/en-US/docs/Web/CSS/word-wrap)
+
+* Is used to specify whether or not the browser may break lines within words in order to prevent overflow when an otherwise unbreakable string is too long to fit in its containing box.
+* That's pretty copy-pasta above but I dunno how to say it better.
+* If a word is too long to fit in a box you can use `word-wrap` and the value of `break-word` to do so.
+
+### [text-transform](https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform)
+
+* Specifies how the text will capitalized.
+* Here are examples of how to use this property:
+* Keyword values -- capitalize; uppercase; lowercase; none; full-width;
+* Global values -- inherit; initial; unset;
+
+## [line-height](https://developer.mozilla.org/en-US/docs/Web/CSS/line-height)
+
+* On block level elements, the line-height property specifies the minimum height of line boxes within the element.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bottom
