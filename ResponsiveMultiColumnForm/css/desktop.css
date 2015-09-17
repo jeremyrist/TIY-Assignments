@@ -1,7 +1,15 @@
 body {
   background-image: url("http://www.dezignwithaz.com/images/column-wall-stickers.png");
-  background-color: yellow;
+  background-color: rgba(0, 0, 0, 0.8);
   font-family: arial;
+}
+
+h1 {
+  color: aliceblue;
+}
+
+header > span {
+  color: aquamarine
 }
 
 .cbp-mc-column {
@@ -17,10 +25,17 @@ div {
 }
 
 .cbp-mc-submit-wrap {
-  margin-top: 10px;
-  border: aliceblue;
+  border: 3px solid blue;
 }
 
 .cbp-mc-submit-wrap {
   text-align: center;
+}
+
+@media (max-width: 450px){
+  .cbp-mc-column{width: 80%;}
+}
+
+@media (min-width: 451px) and (max-width: 540px){
+  .cbp-mc-column{width: 50%}
 }
