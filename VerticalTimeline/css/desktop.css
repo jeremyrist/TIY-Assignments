@@ -1,0 +1,42 @@
+h2 {
+    color: black;
+    background-color: lightgray;
+    border: 6px solid black;
+    font-size: 30px;
+    font-size: 3.5vw;
+}
+
+p {
+    color: black;
+    background-color: lightgray;
+    border: 3px solid black;
+    font-size: 30px;
+    font-size: 3.5vw;
+}
+
+li {
+    border: 1px solid black;
+    float: left;
+    margin: auto;
+    width: 90%;
+}
+
+body {
+    border: 3px solid red;
+    background-image: url("https://www.cmalliance.org/images/resources/archives/timeline-small.jpg");
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+ul {
+    border: 1px solid aqua;
+}
+
+.container {
+    background-color: lightgray;
+    font-size: 30px;
+    font-size: 3.5vw;
+}
+
+.cbp_tmtime {
+    background-color: lightgray;
+}
