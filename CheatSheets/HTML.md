@@ -4,14 +4,14 @@ the main enchilada, the whole `document`, that which wraps all the others... exc
 
 * _parents_: none, it's the top
 * _content_: _only_ [`<head>`](#head) and [`<body>`](#body)
-* _display_: `block`, maybe? I mean, I can see it... RESEARCH!
+* _display_: without CSS or any styling this just looks like a word document
 
 ### Attributes
 
 * `class` -- a space-separated list of category names
-* . . .
+* `id` -- a unique identifier that _must_ not appear elsewhere in the document
+* `title` -- a short textual description of purpose
 
-. . .
 
 ## `<div>`
 
@@ -20,8 +20,7 @@ A generic page division that should only be used if no other, more semantic choi
 * _parents_: anything that accepts [Flow Content][1], which is apparently a lot of things.
 * _content_: any [Flow Contant][1], palpable content (WTF?)
 * _display_: `block`
-
-. . .
+* _fact_: David seems to hate this because it's a cop-out type of tag. Like when you run out of options you do this.
 
 ###### Footnotes
 
