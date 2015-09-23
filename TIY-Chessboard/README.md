@@ -1,1 +1,0 @@
-# TIY-Chessboard
