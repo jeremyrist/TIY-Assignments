@@ -90,3 +90,49 @@ from [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title)
       * <dt> can also be seen to stand for "title" because that seems to be part of its function as well.
 
 * <dd> is the description of the term.
+
+## Interactive Form Elements:
+
++## Form Elements:
++
++* HTML provides a lot of elements that can be used to make interactive forms that users can fill out.
++
++      * You know this stuff, every time you fill a form out on a website its using some sort of these....
++
++#### <button>
++* Represents a clickable button.
++
++#### <form>
++* Represents a section of the document that contains interactive controls to submit information to a web server.
++
++#### <input>
++* Represents where the user will put the data for the form.
++
++#### <label>
++* Seems to represent a type of button where you can click if you want to. Like a multiple choice question.
++
++#### <fieldset>
++* This is used to group several other interactive form elements, like <label>.
++
++#### <legend>
++* This is the caption for <fieldset>, so it probably goes underneath and gives a description of the form.
++
++### Interactive Elements:
++* Some HTML helps create interactive user interface objects.
++
++#### <details>
++* This is a disclosure widget that the user can use to get more info. Probably like a drop-down bar or button.
++
++#### <dialog>
++* This is a box where the user can type in, normally associated with some other interactive forms to give a message back after submission.
++
++#### <menu>
++* This represents a group of elements, which makes sense because menus always contain other things inside them (like food choices.)
++
++#### <menuitem>
++* Represents a command that a user is able to invoke through a popup menu.
++
++#### <summary>
++* Works in conjunction with a details element, which was mentioned earlier. It has a different default style and can be used to give the user some more information, like copyright details.
+
+blah blah blah
