@@ -135,4 +135,38 @@ from [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title)
 +#### <summary>
 +* Works in conjunction with a details element, which was mentioned earlier. It has a different default style and can be used to give the user some more information, like copyright details.
 
-blah blah blah
+## Table Tags:
+
+#### `<table>`
+* Defines a table tag and always comes _before_ <tr>, <th>, and <td>.
+
+#### `<tr>`
+* Defines a _ROW_ in a table.
+* The "r" in "tr" stands for "row".
+
+#### `<th>`
+* Defines a header cell.
+* Bigger than "td".
+
+#### `<td`
+* Defines content of a cell.
+
+### Should look something like this:
+
+      * `<table>`
+          `<tr>`
+            `<th>`
+              `<td`
+
+              AND THE CLOSING TAGS..
+
+#### `<caption>`
+* Defines the caption of a table...this is all super self-explanatory but it still helps to write it.
+
+#### `<col>` < `<colgroup>`
+* "colgroup borders col"
+* It is a way to change the properties of specific columns.
+
+#### `<thead>`, `<tbody>`, and `<tfoot>`
+* All of these do not need anything inside of them from a data HTML perspecitve but it is still nice to see the CSS attached to the them.
+* This is the correct order in largest to smallest.     
