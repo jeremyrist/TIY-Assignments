@@ -4,7 +4,9 @@ console.log("aiyo");
 var inputIds = document.querySelectorAll('input, select, textarea');
   console.log(inputIds);
 
-body {
-  color: #fff;
-  background: #47a3da;
-}
+
+// There seems to be some interactive elements to this website
+
+// When you click on the blank spaces it changes the border color
+
+// Also you can type in them which is also interactive
