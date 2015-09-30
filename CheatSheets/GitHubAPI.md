@@ -8,7 +8,7 @@
 
 > Do I need to authenticate?
 
-* Authenticating is like logging in so yes you need to authenticate
+* Authenticating is like logging in so yes you need to authenticate (?)
 
 > What can I do with an unauthenticated request?
 
