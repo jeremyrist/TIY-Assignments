@@ -132,16 +132,16 @@ FLAG IN THE SAND
 And since libraries like jQuery and Lodash have feelings... I mean _APIs_, too, read through some of the documentation to answer these questions:
 
 ### How can I use [the jQuery API](http://api.jquery.com) to...
-    * get the HTML contents of an element?
-      > .html()
+  * get the HTML contents of an element?
+  > .html()
 
-    * create a _new_ HTML element?
-      > .addHTML(?)
+  * create a _new_ HTML element?
+  > .addHTML(?)
 
-      > .addHeader(?)      
+  > .addHeader(?)      
 
-    * add an HTML element to the page?
-    > .addClass()
+  * add an HTML element to the page?
+  > .addClass()
 
 ### How can I use [the Lodash API](http://lodash.com/docs/) to...
   * replace placeholders with values from an object?
