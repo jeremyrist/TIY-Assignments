@@ -97,7 +97,7 @@ FLAG IN THE SAND
 > I'm not sure if it's GET fork/repositories or what...
 
 * a sorted list of repositories?
-> I don't think I get the difference btw filtering and sorting 
+> I don't think I get the difference btw filtering and sorting
 
 * public events for a user?
 > https://api.github.com/users/octocat/events{/privacy} or GET /events
@@ -120,3 +120,7 @@ FLAG IN THE SAND
 
 * What are some of the different values for the type field?
 > URLS and numbers?
+
+FLAG IN THE SAND
+FLAG IN THE SAND
+FLAG IN THE SAND 
