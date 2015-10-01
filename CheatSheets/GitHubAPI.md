@@ -8,7 +8,7 @@
 
 > Do I need to authenticate?
 
-* Authenticating is like logging in so yes you need to authenticate
+* Authenticating is like logging in so yes you need to authenticate (?)
 
 > What can I do with an unauthenticated request?
 
@@ -73,4 +73,50 @@ _When you fetch an individual resource, the response typically includes all attr
 
 ## [Git Data](https://developer.github.com/v3/git/)
 
-* I read this but didn't totally understand it. 
+* I read this but didn't totally understand it.
+
+
+FLAG IN THE SAND
+FLAG IN THE SAND
+FLAG IN THE SAND
+
+
+###What are the endpoints for fetching...###
+* the profile data for a user?
+> https://github.com/octocat
+
+* the organizations a user belongs to?
+> https://api.github.com/users/octocat/orgs
+
+* the repositories a user has created?
+> https://api.github.com/users/octocat/repos
+
+* a filtered list of repositories?
+> GET search/repositories/fork will give you a filtered list based on forks
+> There's other typs of searches like created or pushed that do a similar thing
+> I'm not sure if it's GET fork/repositories or what...
+
+* a sorted list of repositories?
+> I don't think I get the difference btw filtering and sorting 
+
+* public events for a user?
+> https://api.github.com/users/octocat/events{/privacy} or GET /events
+
+###When fetching public events for a user...###
+* How many results are returned by default?
+> 30 or 10?
+
+* What limitations exist on fetching more results?
+> The fixed page size is 30 items. Fetching up to ten pages is supported, for a total of 300 events.
+
+* What is the basic structure of the results?
+> FLAG IN THE SAND
+
+* What fields are included in each result?
+> FLAG IN THE SAND
+
+* What are the data types for each field?
+> Arrays of definitions?
+
+* What are some of the different values for the type field?
+> URLS and numbers?
