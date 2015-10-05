@@ -97,7 +97,7 @@ FLAG IN THE SAND
 > I'm not sure if it's GET fork/repositories or what...
 
 * a sorted list of repositories?
-> I don't think I get the difference btw filtering and sorting 
+> I don't think I get the difference btw filtering and sorting
 
 * public events for a user?
 > https://api.github.com/users/octocat/events{/privacy} or GET /events
@@ -120,3 +120,32 @@ FLAG IN THE SAND
 
 * What are some of the different values for the type field?
 > URLS and numbers?
+
+FLAG IN THE SAND
+FLAG IN THE SAND
+FLAG IN THE SAND
+
+* How can I use the Github API to...
+  * get all the comments for a particular issue?
+  * add a comment to an issue?
+
+And since libraries like jQuery and Lodash have feelings... I mean _APIs_, too, read through some of the documentation to answer these questions:
+
+### How can I use [the jQuery API](http://api.jquery.com) to...
+  * get the HTML contents of an element?
+  > .html()
+
+  * create a _new_ HTML element?
+  > .addHTML(?)
+
+  > .addHeader(?)      
+
+  * add an HTML element to the page?
+  > .addClass()
+
+### How can I use [the Lodash API](http://lodash.com/docs/) to...
+  * replace placeholders with values from an object?
+  > Is the place holder literally an `_`?
+
+  * repeat code for every item of an array?
+  > _.repeat("hello", 18);
