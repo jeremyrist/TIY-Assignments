@@ -1,0 +1,26 @@
+{
+  "name": "horizontaldropdownmenu",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "browser-sync start --server --directory --files='index.html'",
+    "sass": "node-sass --output-style expanded src/scss/main.scss src/css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeremyrist/TIY-Assignments/"
+  },
+  "author": "jeremyrist",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeremyrist/TIY-GitHub/issues"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.9.6",
+    "chai": "^3.3.0",
+    "mocha": "^2.3.3",
+    "node-sass": "^3.3.3"
+}
+}

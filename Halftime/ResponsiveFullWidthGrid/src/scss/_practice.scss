@@ -1,0 +1,62 @@
+h1 {
+  color: #47a3da;
+  font-family: 'Lato', Calibri, Arial, sans-serif;
+}
+#blueprint {
+  color: #47a3da;
+  font-family: 'Lato', Calibri, Arial, sans-serif;
+}
+.buttons {
+  float: right;
+}
+ul.boxlist {
+  clear: right;
+}
+ .octicon {
+   color: #47a3da;
+   width: 2.5em;
+   height: 2.5em;
+   text-align: center;
+   border-radius: 50%;
+   margin: 0 0.1em;
+   border: 4px solid #47a3da;
+ }
+  ul {
+    outline: 1px solid black;
+  }
+    li {
+      list-style: none;
+      outline: 1px solid #47a3da;
+      width: 20%;
+      float: left;
+      min-height: 250px;
+    }
+    .box {
+      position: relative;
+    }
+
+    .hiddentext {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      visibility: hidden;
+      color: white;
+      padding: 28%;
+      color: white;
+      background-color: darkgrey;
+      opacity: 0.4;
+    }
+
+
+      .listimage {
+        width: 100%;
+        // height: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+        h3 {
+          text-align: center;
+        }
