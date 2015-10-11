@@ -96,12 +96,24 @@ textarea {
    ========================================================================== */
 @import 'tabs';
 
+@import 'mobile';
 
+@import 'tablet';
 
+.panels {
+  display: none;
+}
 
+section.active {
+  display: inherit;
+  background-color: blue;
+  color: blue;
+}
 
-
-
+.dropdowninfo {
+  background-color: #47a3da;
+  color: white;
+}
 
 
 
